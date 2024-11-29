@@ -1,0 +1,221 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+#hero {
+    background: url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+#hero .hero-content h2 {
+    font-size: 3rem;
+}
+
+#hero .hero-content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+#hero .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #ff7f50;
+    color: white;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+}
+
+#hero .btn:hover {
+    background-color: #ff6347;
+}
+
+/* Section styles */
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#about {
+    background-color: #f9f9f9;
+}
+
+#lineup ul {
+    list-style-type: none;
+}
+
+#lineup ul li {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #eee;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#tickets .btn {
+    background-color: #4caf50;
+}
+
+#tickets .btn:hover {
+    background-color: #45a049;
+}
+
+/* Register Section */
+#register {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#register h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#register form {
+    display: flex;
+    flex-direction: column;
+}
+
+#register form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#register form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+#register form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#register form button:hover {
+    background-color: #45a049;
+}
+
+/* Login Link */
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero .hero-content h2 {
+        font-size: 2rem;
+    }
+
+    #hero .hero-content p {
+        font-size: 1rem;
+    }
+
+    #lineup ul li {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
